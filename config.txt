@@ -9,7 +9,8 @@
 # https://github.com/raspberrypi/documentation/blob/master/configuration/device-tree.md
 # https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README
 
-kernel=zImage
+# Enable 64-bit support
+arm_64bit=1
 
 # Disable the boot rainbow
 disable_splash=1
